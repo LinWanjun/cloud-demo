@@ -1,0 +1,17 @@
+/**
+ * 展示组件（外层统一加一个 html 选择器以提升优先级）
+ */
+html .van-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+html .van-grid-item__content {
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  height: 100%;
+  padding: 4px;
+  background-color: inherit;
+  border-color: inherit;
+}
